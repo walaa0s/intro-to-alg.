@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{ cout <<" \" I LOVE C++ \" " << endl ;
+    cout << " h     h " << endl; // 5 boşluk 
+ 
+   cout << " h     h " << endl;
+    cout << " hhhhhhh " << endl;
+    cout << " h     h " << endl;
+    cout << " h     h " << endl;
+
+    string name;
+    cout << " write your first name :" ;
+    cin >> name;
+    string surname;
+        cout << " write your last name : "  ; 
+        cin >> surname;
+     
+     const double tax = 0.09  ;
+cout<<"kdv tutarı :" << tax<< endl;
+     double sale = 10.000 ;
+     cout<< " Sale Amount :" << sale << endl ;
+    double totalAmountDue = sale*tax ; // int yazarsan burda tam sayıları tanımlar
+    cout<< "Total Amount Due :"<< totalAmountDue << endl ;
+return 0 ; }
